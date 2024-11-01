@@ -1,0 +1,33 @@
+.woocommerce-innocard-checkout-form .hidden {
+    display: none;
+}
+.woocommerce-innocard-checkout-form label {
+    cursor: pointer;
+    user-select: none;
+}
+.woocommerce-innocard-checkout-form .optional {
+    display: none;
+}
+
+.woocommerce-innocard-checkout-form h3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.wc-innocard-logo {
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+}
+wc-innocard-logo img {
+    width: 100%;
+    height: auto;
+}
+#wc_innocard_balance {
+    max-width: 100% !important;
+}
+
+.woocommerce input[name="wc_innocard_balance"] {
+    max-width: 100% !important;
+}
